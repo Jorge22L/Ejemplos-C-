@@ -32,7 +32,7 @@ int main()
     cout<<"El dominio es: " << email.substr(posicion+1) << endl;
 
     //Validar cadenas vacías
-    email = "\n";
+    email = "";
 
     if(email.empty())
     {
